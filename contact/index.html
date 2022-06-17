@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+     <!--linking the external stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- creating navigation bar-->  
+   <nav>
+    <!-- creating logo division of navigation bar--> 
+     <div class="logo">
+         <a href=""><img src="PNGIX.com_portfolio-logo-png_5014855.png" alt=""></a>
+     </div>
+      <!-- creating links division for navigation bar--> 
+     <div class="items">
+         <a href="../home/index.html">Home</a>
+         <a href="../Blog/index.html">Blog</a>
+         <a href="../Research/index.html">Research</a>
+         <a href="../contact/index.html">Contact me</a>
+     </div>
+  </nav>
+    <!--creating container for the form-->
+    <div class="container">
+       <!--creating the form-->
+        <form id="form" class="form">
+          <h2>Message Me!!!</h2>
+           <!--division for email-->
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="Email" placeholder="Enter email" />
+            <small>Error message</small>
+          </div>
+           <!--division for full name-->
+          <div class="form-control">
+            <label for="name">Full Name</label>
+            <input type="text" id="fullName" placeholder="Enter Your Full Name" />
+            <small>Error message</small>
+          </div>
+           <!--division for message-->
+          <div class="form-control">
+            <label for="message">Your message</label>
+            <input type="text" id="message" placeholder="Enter Your Message" />
+            <small>Error message</small>
+          </div>
+           <!--submit button-->
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+       <!--linking the script file-->
+      <script src="script.js"></script>
+</body>
+</html>

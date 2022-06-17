@@ -1,0 +1,215 @@
+/*resetting the padding and margin yo all the elements */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mulish', sans-serif;   
+}
+/*styling the body tag */
+body{
+    background-color: #050505;
+    color: #e6e7e8;
+}
+/*styling the navigation bar */
+nav{
+    background:#e6e7e8;
+    top:0;
+    width:100%;
+    height:12vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+    transition: all 0.2s linear;
+    font-family: 'Amatic SC', cursive;
+}
+/*styling the links insde nav bar */
+nav a{
+    color:#050505;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;;
+}
+/*styling the logo division in the navbar */
+nav .logo{
+    width:20%;
+}
+nav .logo img{
+    width: 40%;;
+}
+/*styling the texts in navbar */
+nav .items{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+}
+/*hover effects */
+nav a:nth-child(3),
+nav a:hover{
+    color:#e74c3c;
+}
+/*styling the toogle classes */
+nav.active{
+    height: 10vh;
+    background:#e6e7e8;
+    transition: all 0.1s linear;
+}
+/*links of the toogle class */
+nav.active a{
+    color:black;
+}
+/*hover effect for the toogle class */
+nav.active a:nth-child(4),
+nav.active a:hover{
+    color:#ff5e62; 
+}
+/*styling iic division*/
+.iic{
+    padding-top: 14vh;
+    width: 80%;
+    margin: auto;
+    background-color: #050505;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*styling image in iic division*/
+.iic .image{
+    width: 50%;
+}
+.iic .image img{
+    width: 100%;
+}
+/*styling texts in icc division*/
+.iic .para{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 600;
+}
+/*styling the links*/
+.iic a{
+    color:#ff5e62;
+    text-decoration: none;
+}
+.iic a:hover{
+    color:skyblue;
+    text-decoration: underline;
+}
+/*styling the express division*/
+.express{
+    padding-top: 14vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.express .image{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.express .image img{
+    width: 100%;
+}
+.express .para{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.express a{
+    color:#ff5e62;
+    text-decoration: none;
+}
+.express a:hover{
+    color:skyblue;
+    text-decoration: underline;
+}
+/*styling the jack division*/
+.jack{
+    padding-top: 14vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jack .image{
+    width: 50%;
+}
+.jack .image img{
+    width: 100%;
+}
+.jack .para{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.jack a{
+    color:#ff5e62;
+    text-decoration: none;
+}
+.jack a:hover{
+    color:skyblue;
+    text-decoration: underline;
+}
+/*styling the netflix division*/
+.netflix{
+    padding-top: 14vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.netflix .image{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.netflix .image img{
+    width: 100%;
+}
+.netflix .para{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.netflix a{
+    color:#ff5e62;
+    text-decoration: none;
+}
+.netflix a:hover{
+    color:skyblue;
+    text-decoration: underline;
+}
+/*sthyling the evrone division*/
+.evrone{
+    padding-top: 14vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.evrone .image{
+    width: 50%;
+}
+.evrone .image img{
+    width: 100%;
+}
+.evrone .para{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.evrone a{
+    color:#ff5e62;
+    text-decoration: none;
+}
+.evrone a:hover{
+    color:skyblue;
+    text-decoration: underline;
+}

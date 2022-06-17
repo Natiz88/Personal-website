@@ -1,0 +1,107 @@
+/*resetting the padding and margin yo all the elements */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mulish', sans-serif;     
+}
+/*styling the navigation bar */
+nav{
+    background:#e6e7e8;
+    top:0;
+    width:100%;
+    height:12vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+    transition: all 0.2s linear;
+}
+/*styling the links insde nav bar */
+nav a{
+    color:#050505;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;;
+}
+/*styling the logo division in the navbar */
+nav .logo{
+    width:20%;
+}
+nav .logo img{
+    width: 40%;
+}
+/*styling the texts in navbar */
+nav .items{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+}
+/*hover effects */
+nav a:nth-child(3),
+nav a:hover{
+    color:#e74c3c;
+}
+/*styling the toogle classes */
+nav.active{
+    height: 10vh;
+    background:#e6e7e8;
+    transition: all 0.1s linear;
+}
+/*links of the toogle class */
+nav.active a{
+    color:black;
+}
+/*hover effect for the toogle class */
+nav.active a:nth-child(2),
+nav.active a:hover{
+    color:#ff5e62; 
+}
+/*styling the image inside article*/
+article img{
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    z-index: -100;
+}
+/*styling the article*/
+article{
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    color:#e6e7e8;
+    background-color: #050505;
+    z-index: -11;
+}
+/*styling the texts in article*/
+.article-texts{
+    width: 60%;
+    margin: auto;
+    background-color: black;
+}
+/*styling the header inside article*/
+.article-texts h1{
+    padding-top: 200px;
+    font-size: 30px;
+    font-weight: 500;
+}
+/*styling the paragraph in article*/
+.article-texts p{
+    padding: 50px 0;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    word-spacing: 7.5px;
+}
+/*styling the first image division*/
+.image1{
+    position:absolute;
+    top: 20vh;
+    right:0px;
+    z-index: -10;
+}
+.image1 img{
+    width: 70%;
+}

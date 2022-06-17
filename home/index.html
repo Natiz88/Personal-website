@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- meta tags--> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+     <!--linking stylesheet --> 
+    <link rel="stylesheet" href="style.css">
+     <!--linking the icons --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--internal CSS styling --> 
+    <style>
+     /*importing google fonts */
+      @import url('https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@200&display=swap');
+      </style>
+</head>
+<body>
+  <!-- creating navigation bar-->  
+    <nav>
+       <!-- creating logo division of navigation bar--> 
+        <div class="logo">
+            <a href=""><img src="PNGIX.com_portfolio-logo-png_5014855.png" alt=""></a>
+        </div>
+         <!-- creating links division for navigation bar--> 
+        <div class="items">
+            <a href="../home/index.html">Home</a>
+            <a href="../Blog/index.html">Blog</a>
+            <a href="../Research/index.html">Research</a>
+            <a href="../contact/index.html">Contact me</a>
+        </div>
+    </nav>
+     <!-- creating the introduction part--> 
+    <div class="main-texts">
+      <div class="texts">
+        <h1>Hii, <br>I Am Natiz Bista.</h1>
+        <h3>I'm a front end web developer.</h3>
+        <h5>Find my design interesting?</h5>
+        <button href="../contact/index.html">Hire Me!</button>
+      </div>
+    </div>
+     <!-- section for secondary information--> 
+    <section class="four">
+        <!--image for this section --> 
+        <div class="image">
+            <img src="3.jpg" alt="">
+        </div>
+         <!--texts of this section --> 
+        <div class="text">
+            <h1>What I do?</h1>
+            <p>I develop websites using <br> React and Redux. <br> You can also find me on:</p>
+             <!-- links to different social medias--> 
+            <ul>
+                <li><a href="https://github.com/Natiz88" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.facebook.com/sqrandle.hatred" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-reddit"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-quora"></i></a></li>
+            </ul>
+        </div>
+    </section>
+         <!--creating container for the form-->
+    <div class="container" id="container">
+      <!--creating the form-->
+       <form id="form" class="form">
+         <h2>Message Me!!!</h2>
+          <!--division for email-->
+         <div class="form-control">
+           <label for="email">Email</label>
+           <input type="email" id="Email" placeholder="Enter email" />
+           <small>Error message</small>
+         </div>
+          <!--division for full name-->
+         <div class="form-control">
+           <label for="name">Full Name</label>
+           <input type="text" id="fullName" placeholder="Enter Your Full Name" />
+           <small>Error message</small>
+         </div>
+          <!--division for message-->
+         <div class="form-control">
+           <label for="message">Your message</label>
+           <input type="text" id="message" placeholder="Enter Your Message" />
+           <small>Error message</small>
+         </div>
+          <!--submit button-->
+         <button type="submit" id="submit">Submit</button>
+       </form>
+     </div>
+    <div class="messenger-icon">
+     <img src="2018_social_media_popular_app_logo_messenger-128.webp" alt="" id="icon">
+    </div>
+     <!--creating a footer --> 
+    <footer>
+
+    </footer>
+     <!--linking the script page --> 
+    <script src="script.js"></script>
+</body>
+</html>
